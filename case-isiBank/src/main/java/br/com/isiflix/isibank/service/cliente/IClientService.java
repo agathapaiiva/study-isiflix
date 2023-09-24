@@ -4,8 +4,8 @@ import br.com.isiflix.isibank.dto.ClientDTO;
 
 public interface IClientService {
 
-    public Integer createClient(ClientDTO client);
+    Integer createClient(ClientDTO client);
 
-    public Integer updateClient(ClientDTO client);
+    Integer updateClient(ClientDTO client);
 
 }
