@@ -1,4 +1,4 @@
-package br.com.isiflix.isibank.service.cliente;
+package br.com.isiflix.isibank.service.client;
 
 import br.com.isiflix.isibank.dto.ClientDTO;
 

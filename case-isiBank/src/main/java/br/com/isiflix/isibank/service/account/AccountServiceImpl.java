@@ -1,4 +1,4 @@
-package br.com.isiflix.isibank.service.conta;
+package br.com.isiflix.isibank.service.account;
 
 import br.com.isiflix.isibank.dto.AccountDTO;
 import br.com.isiflix.isibank.model.Account;
@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 import java.util.Objects;
 
 @Service
-public class IAccountServiceImpl implements IAccountService {
+public class AccountServiceImpl implements IAccountService {
 
     @Value("${isibank.banknumber}")
     private Integer bankNumber;
