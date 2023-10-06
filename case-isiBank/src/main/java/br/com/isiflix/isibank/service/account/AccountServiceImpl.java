@@ -34,7 +34,6 @@ public class AccountServiceImpl implements IAccountService {
 
         Account accounts = account.toAccount();
         accounts.setNumberBank(bankNumber);
-        System.out.println(accounts);
         return accountRepo.save(accounts).getNumberAccount();
     }
 }
